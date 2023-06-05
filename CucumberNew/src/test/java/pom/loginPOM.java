@@ -11,7 +11,7 @@ public class loginPOM extends global {
 	public loginPOM() 
 	{
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this.keyword);
 	}
 	
 	
