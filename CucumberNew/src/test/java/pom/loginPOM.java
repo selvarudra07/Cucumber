@@ -8,11 +8,11 @@ import utils.global;
 
 public class loginPOM extends global {
 	
-//	public loginPOM() 
-// 	{
-// 		this.driver=driver;
-// 		PageFactory.initElements(driver, this.keyword);
-// 	}
+	public loginPOM() 
+ 	{
+ 		this.driver=driver;
+ 		PageFactory.initElements(driver, this.keyword);
+ 	}
 	
 	
 	@FindBy(id="email")
