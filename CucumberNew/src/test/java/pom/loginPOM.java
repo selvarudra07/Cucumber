@@ -8,7 +8,7 @@ import utils.global;
 
 public class loginPOM extends global {
 	
-// 	public loginPOM() 
+//	public loginPOM() 
 // 	{
 // 		this.driver=driver;
 // 		PageFactory.initElements(driver, this.keyword);
