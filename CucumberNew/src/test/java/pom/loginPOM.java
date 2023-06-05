@@ -13,7 +13,7 @@ public class loginPOM extends global {
  		this.driver=driver;
  		PageFactory.initElements(driver, this);
  	}
-	
+
 	
 	@FindBy(id="email")
 	private static WebElement username;
