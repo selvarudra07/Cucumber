@@ -9,12 +9,12 @@ import utils.global;
 
 public class loginPOM extends global {
 	
-	public loginPOM() 
-	{
-		this.driver=driver;
-		PageFactory.initElements(driver, this);
-	}
-	
+//	public loginPOM() 
+//	{
+//		this.driver=driver;
+//		PageFactory.initElements(driver, this);
+//	}
+//	
 	
 	@FindBy(id="email")
 	private static WebElement username;
